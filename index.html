@@ -22,20 +22,21 @@
       <nav class="header-nav">
         <!-- emmet: ul.header-nav-menu-item*4>a -->
         <ul class="header-nav-menu-item">
-          <a href="">Home</a>
+          <!-- ページ内リンクは#始まり -->
+          <a href="#home">Home</a>
         </ul>
         <ul class="header-nav-menu-item">
-          <a href="">Works</a>
+          <a href="#works">Works</a>
         </ul>
         <ul class="header-nav-menu-item">
-          <a href="">About</a>
+          <a href="#about">About</a>
         </ul>
         <ul class="header-nav-menu-item">
-          <a href="">Contact</a>
+          <a href="#contact">Contact</a>
         </ul>
       </nav>
     </header>
-    <main class="main">
+    <main id="home" class="main">
       <section class="main-hero">
         <div class="container">
           <div class="main-hero-highlight">
@@ -100,7 +101,7 @@
           </div>
         </div>
       </section>
-      <section class="main-about">
+      <section id="about" class="main-about">
         <h2><i class="fa fa-twitter"></i>About</h2>
         <figure class="main-about-img">
           <img src="images/image-profile.jpg" alt="profile" class="mobile" />
@@ -149,7 +150,7 @@
         </div>
       </section>
     </main>
-    <footer class="footer">
+    <footer id="contact" class="footer">
       <div class="container">
         <div class="footer-form">
           <p>お仕事のご依頼やご相談等、お問い合わせはこちらからどうぞ。</p>
