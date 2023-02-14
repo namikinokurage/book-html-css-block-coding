@@ -1,54 +1,83 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sample Profile Page</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sample Profile Page</title>
 
-  <link rel="stylesheet" href="stylesheets/normalize.css">
-  <link rel="stylesheet" href="stylesheets/style.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-  <link rel="icon" type="image/png" href="images/favicon.png">
-</head>
-<body>
-  <header class="header">
-    <div class="header-logo">
-      <img src="images/image-logo.svg" alt="logo" class="header-logo-img">
-      <span class="header-logo-title">Designer/Developer</span>
-    </div>
-    <nav class="header-nav">
-      <!-- emmet: ul.header-nav-menu-item*4>a -->
-      <ul class="header-nav-menu-item"><a href="">Home</a></ul>
-      <ul class="header-nav-menu-item"><a href="">Works</a></ul>
-      <ul class="header-nav-menu-item"><a href="">About</a></ul>
-      <ul class="header-nav-menu-item"><a href="">Contact</a></ul>
-    </nav>
-  </header>
-  <main class="main">
-    <section class="main-hero">
-      <div class="container">
-        <div class="main-hero-highlight">
-          <h1>I'm <strong>namikinokurage</strong>, a <strong>designer/developer</strong> based in Japan.</h1>
-        </div>
-        <!-- 外部リンクにはtarget="_blank"を追加する -->
-        <div class="main-hero-highlight-link">
-          <p>このサイトのコードは<a href="https://github.com/namikinokurage/book-html-css-block-coding" target="_blank">こちら</a>にまとまっています。<br>お問い合わせは<a href="">コンタクトフォームからどうぞ :)</a>
+    <link rel="stylesheet" href="stylesheets/normalize.css" />
+    <link rel="stylesheet" href="stylesheets/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
+    />
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-logo">
+        <img src="images/image-logo.svg" alt="logo" class="header-logo-img" />
+        <span class="header-logo-title">Designer/Developer</span>
+      </div>
+      <nav class="header-nav">
+        <!-- emmet: ul.header-nav-menu-item*4>a -->
+        <ul class="header-nav-menu-item">
+          <a href="">Home</a>
+        </ul>
+        <ul class="header-nav-menu-item">
+          <a href="">Works</a>
+        </ul>
+        <ul class="header-nav-menu-item">
+          <a href="">About</a>
+        </ul>
+        <ul class="header-nav-menu-item">
+          <a href="">Contact</a>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <section class="main-hero">
+        <div class="container">
+          <div class="main-hero-highlight">
+            <h1>
+              I'm <strong>namikinokurage</strong>, a
+              <strong>designer/developer</strong> based in Japan.
+            </h1>
+          </div>
+          <!-- 外部リンクにはtarget="_blank"を追加する -->
+          <div class="main-hero-highlight-link">
+            <p>
+              このサイトのコードは<a
+                href="https://github.com/namikinokurage/book-html-css-block-coding"
+                target="_blank"
+                >こちら</a
+              >にまとまっています。<br />お問い合わせは<a href=""
+                >コンタクトフォーム</a
+              >からどうぞ :)
+            </p>
             <ul class="social-links">
               <!-- class fab fa-github はFont Awesomeを使用するため -->
-              <li><a href="https://twitter.com/namikinokurage" target="_blank"><i class="fa fa-twitter"></i></a></li>
-              <li><a href="https://github.com/namikinokurage" target="_blank"><i class="fa fa-github"></i></a></li>
+              <li>
+                <a href="https://twitter.com/namikinokurage" target="_blank"
+                  ><i class="fa fa-twitter"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://github.com/namikinokurage" target="_blank"
+                  ><i class="fa fa-github"></i
+                ></a>
+              </li>
             </ul>
-          </p>
+          </div>
+          <!-- figureタグは写真と文章のまとまりを表すタグ -->
+          <figure class="main-hero-img">
+            <img src="images/image-profile.jpg" alt="profile" />
+          </figure>
         </div>
-        <!-- figureタグは写真と文章のまとまりを表すタグ -->
-        <figure class="main-hero-img">
-          <img src="images/image-profile.jpg" alt="profile" >
-        </figure>
-      </div>
-    </section>
-    <section class="main-works"></section>
-    <section class="main-about"></section>
-  </main>
-  <footer class="footer"></footer>
-</body>
+      </section>
+      <section class="main-works"></section>
+      <section class="main-about"></section>
+    </main>
+    <footer class="footer"></footer>
+  </body>
 </html>
