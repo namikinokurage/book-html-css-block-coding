@@ -38,6 +38,10 @@ ul {
   list-style: none;
 }
 
+p {
+  line-height: 1.8;
+}
+
 /* Reusable Classes */
 
 /* Header */
