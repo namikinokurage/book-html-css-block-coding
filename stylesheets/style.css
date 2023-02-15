@@ -64,6 +64,36 @@ a, input, textarea {
   margin: 0 auto;
 }
 
+.button-primary,
+.button-secondary {
+  display: inline-block;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 3px;
+  color: #FFF7F7;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+
+.button-primary {
+  background-color: #53687E;
+}
+
+.button-secondary {
+  background: #6B4E71;
+}
+
+.button-primary:hover,
+.button-primary:focus {
+  background-color: #495B6F;
+}
+
+.button-secondary:hover,
+.button-secondary:focus {
+  background: #5D4462;
+}
 /* Header */
 
 /* Main - Hero */
