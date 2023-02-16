@@ -139,6 +139,28 @@ a, input, textarea {
 }
 
 /* Main - Hero */
+.main-hero {
+  background-color: #684e71;
+}
+
+.main-hero-highlight,
+.main-hero-highlight-links a {
+  color: #FFF7F7;
+}
+
+.main-hero-highlight-links p {
+  color: #FFF7F7;
+  font-size: 1.2rem;
+}
+
+.main-hero-highlight-links p > a {
+  text-decoration: underline;
+}
+
+.main-hero-highlight-links a:hover,
+.main-hero-highlight-links a:focus {
+  color: #ffc4c4;
+}
 
 /* Main - Works */
 
