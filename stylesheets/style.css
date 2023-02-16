@@ -203,3 +203,90 @@ a, input, textarea {
 }
 
 /* Footer */
+.footer {
+  background-color: #3A4454;
+  color: #FFF7F7;
+}
+
+.footer-form form,
+.footer-form-input input,
+.footer-form-textarea textarea {
+  width: 100%;
+}
+
+.footer-form-input {
+  position: relative;
+}
+
+.footer-form-input i {
+  position: absolute;
+  top: 12px;
+  left: 16px;
+  color: #FFF7F7;
+}
+
+.footer-form-input input {
+  padding: 10px 15px 10px 40px;
+}
+
+.footer-form-textarea textarea {
+  height: 150px;
+  padding: 10px 15px;
+  resize: none;
+}
+
+.footer-form-input input,
+.footer-form-textarea textarea {
+  width: 100%;
+  background-color: transparent;
+  border: 1px solid #c2b2b4;
+  border-radius: 5px;
+  color: #FFF7F7;
+}
+
+.footer-form-input input::placeholder,
+.footer-form-textarea textarea::placeholder {
+  color: #9c9da5;
+}
+
+.footer-form-input input:hover,
+.footer-form-input input:focus,
+.footer-form-textarea textarea:hover,
+.footer-form-textarea textarea:focus {
+  background-color: rgba(0, 0, 0, 10%);
+}
+
+.footer-form-input input:focus-visible,
+.footer-form-textarea textarea:focus-visible {
+  outline: 1px solid #c2b2b4;
+  border: 1px solid #c2b2b4;
+}
+
+.footer-info-nav-menu ul {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.footer-info-nav-menu a {
+  color: #FFF7F7;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.footer-info-nav-menu a:hover,
+.footer-info-nav-menu a:focus {
+  color: #9c9da5;
+}
+
+.footer-info-follow a {
+  color: #9c9da5;
+  font-size: 1.5rem;
+}
+
+.footer-info-follow a:hover,
+.footer-info-follow a:focus {
+  color: #81838d;
+}
+
+.footer-info-copy {
+  color: #9c9da5;
+}
