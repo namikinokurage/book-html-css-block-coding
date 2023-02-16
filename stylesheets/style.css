@@ -129,6 +129,15 @@ a, input, textarea {
   display: flex;
 }
 
+.header-nav-menu-item > a {
+  color: #FFF7F7;
+}
+
+.header-nav-menu-item > a:hover,
+.header-nav-menu-item > a:focus {
+  color: #ffc4c4;
+}
+
 /* Main - Hero */
 
 /* Main - Works */
