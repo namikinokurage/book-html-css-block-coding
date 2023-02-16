@@ -94,6 +94,17 @@ a, input, textarea {
 .button-secondary:focus {
   background: #5D4462;
 }
+
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 2rem;
+}
+
+/* 隣接セレクタ（ある要素と隣り合う要素に対してのみ適用） */
+.social-links li + li {
+  margin-left: 20px;
+}
 /* Header */
 
 /* Main - Hero */
