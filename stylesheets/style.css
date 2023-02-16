@@ -64,8 +64,7 @@ a, input, textarea {
   margin: 0 auto;
 }
 
-.button-primary,
-.button-secondary {
+.button {
   display: inline-block;
   padding: 10px 15px;
   border: none;
