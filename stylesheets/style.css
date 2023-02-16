@@ -105,7 +105,13 @@ a, input, textarea {
 .social-links li + li {
   margin-left: 20px;
 }
+
 /* Header */
+.header {
+  color: #FFF7F7;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 700;
+}
 
 /* Main - Hero */
 
